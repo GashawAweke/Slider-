@@ -23,6 +23,7 @@ const SlickCarousel = () => {
           const { id, image, name, title, quote } = person;
           return (
             <article key={id}>
+              <div className='title'></div>
               <img src={image} alt={title} className='person-img' />
               <h5 className='name'>{name}</h5>
               <p className='title'>{title}</p>
